@@ -1,0 +1,47 @@
+.SingInAndRegisterPopUp-content .sign-in {
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #000000;
+  margin-left: 20px;
+  cursor: pointer;
+}
+.SingInAndRegisterPopUp-content .register {
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #000000;
+  margin-left: 20px;
+  cursor: pointer;
+}
+.SingInAndRegisterPopUp-content {
+  box-shadow: 1px 2px 2px 1px rgba(0, 0, 0, 0.18);
+    border-radius: 5px;
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    /* padding: 20px 0 20px 20px; */
+    box-sizing: border-box;
+    width: 98px;
+    height: 85px;
+    justify-content: center;
+    row-gap: 15px;
+    position: absolute;
+}
+.SingInAndRegisterPopUp{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.35);
+  z-index: 999;
+  display: none;
+}
